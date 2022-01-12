@@ -9,18 +9,18 @@ export function App() {
             <PageTitle title={'APP component'}/>
             <PageTitle title={'My friends'}/>
             <Rating value={2}/>
-            <Accordion title={'Menu1'}/>
+            <Accordion titleValue={'Menu1'} collapsedMenu={true}/>
             <Rating value={3}/>
-            <Accordion title={'Menu2'}/>
+            <Accordion titleValue={'Menu2'} collapsedMenu={true}/>
         </div>
     );
 }
 
-type PageTitleType = {
+type PageTitlePropsType = {
     title: string
 }
 
-function PageTitle(props: PageTitleType) {
+function PageTitle(props: PageTitlePropsType) {
     return (
         <h1>{props.title}</h1>
     )
