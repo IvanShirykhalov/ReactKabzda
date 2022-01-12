@@ -26,23 +26,16 @@ type StarPropsType = {
 function Star(props: StarPropsType) {
 
     const onStyle = {
-        width: '30px',
-        height: '20px',
-        padding: '2px',
         color: 'red',
     }
     const offStyle = {
-        width: '30px',
-        height: '20px',
-        marginLeft: '2px',
-        padding: '2px',
-        color: 'white',
+        color: 'black',
     }
 
     if (props.selected) {
-        return <span style={onStyle}><b>x</b></span>
+        return <span style={onStyle}><b>★</b></span>
     } else {
-        return <span style={offStyle}>x</span>
+        return <span style={offStyle}>★</span>
     }
 
 }
