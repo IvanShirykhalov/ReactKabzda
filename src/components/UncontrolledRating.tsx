@@ -10,7 +10,7 @@ export function UncontrolledRating (props: RatingPropsType) {
 
     return (
         <div>
-            < button onClick={()=>{setValue(1)}}><Star selected={value > 0}/></button>
+            <button onClick={()=>{setValue(1)}}><Star selected={value > 0}/></button>
             <button onClick={()=>{setValue(2)}}><Star selected={value > 1}/></button>
             <button onClick={()=>{setValue(3)}}><Star selected={value > 2}/></button>
             <button onClick={()=>{setValue(4)}}><Star selected={value > 3}/></button>
@@ -32,10 +32,5 @@ function Star(props: StarPropsType) {
         color: 'black',
     }
 
-    if (props.selected) {
-        return <span style={onStyle}><b>★</b></span>
-    } else {
-        return <span style={offStyle}>★</span>
-    }
-
+    return  (props.selected ? <span style={onStyle}><b>★</b></span>: <span style={offStyle}>★</span>)
 }
