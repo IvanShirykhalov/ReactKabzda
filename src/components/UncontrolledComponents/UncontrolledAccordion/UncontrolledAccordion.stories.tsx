@@ -1,16 +1,14 @@
 import React, {useState} from "react";
-import {AccordionBody, AccordionTitle, UncontrolledAccordion} from "./UncontrolledAccordion";
+import {AccordionBody, AccordionPropsType, AccordionTitle, UncontrolledAccordion} from "./UncontrolledAccordion";
+import {Story} from "@storybook/react";
 
 export default {
     title:'UncontrolledAccordion',
     components: UncontrolledAccordion
 }
 
-export const Template = () => {
-    let [collapsed, setCollapsed] = useState(false)
-
-    return <div>
-        <AccordionTitle title={'Menu'} onClick={()=>{setCollapsed(!collapsed)}}/>
-        {!collapsed  && <AccordionBody/>}
-    </div>
+export const Template: Story<AccordionPropsType> = (args) => <UncontrolledAccordion {...args}/>
+export const UnAccordion = Template.bind({})
+UnAccordion.args = {
+    titleValue: 'Menu'
 }

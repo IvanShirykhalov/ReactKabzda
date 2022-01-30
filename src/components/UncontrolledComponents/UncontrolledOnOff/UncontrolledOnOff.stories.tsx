@@ -1,46 +1,22 @@
 import React, {useState} from "react";
-import {UncontrolledOnOff} from "./UncontrolledOnOff";
+import {UncontrolledOnOff, UncontrolledOnOffPropsType} from "./UncontrolledOnOff";
+import {OnOffPropsType} from "../../onOff/OnOff";
+import {Story} from "@storybook/react";
 
 export default {
     title: 'UncontrolledOnOff',
     components: UncontrolledOnOff
 }
 
-export const Template = () => {
+export const Template: Story<UncontrolledOnOffPropsType> = (args) => <UncontrolledOnOff {...args}/>
+export const UncontrolledOff = Template.bind({})
+UncontrolledOff.args = {
+    on: false,
+    defaultOn: false
 
-    let [on, setOn] = useState(false)
-
-    const onStyle = {
-        width: '30px',
-        height: '20px',
-        border: '1px solid black',
-        display: 'inline-block',
-        padding: '2px',
-        backgroundColor: on ? 'green' : 'white'
-    }
-    const offStyle = {
-        width: '30px',
-        height: '20px',
-        border: '1px solid black',
-        display: 'inline-block',
-        marginLeft: '2px',
-        padding: '2px',
-        backgroundColor: !on ? 'red' : 'white'
-    }
-    const indicatorStyle = {
-        width: '10px' ,
-        height: '10px',
-        borderRadius: '10px',
-        border: '1px solid black',
-        display: 'inline-block',
-        marginLeft: '5px',
-        padding: '2px',
-        backgroundColor: on ? 'green' : 'red'
-    }
-
-    return <div>
-        <div style={onStyle} onClick={()=>{setOn(true)}}>on</div>
-        <div style={offStyle} onClick={()=>{setOn(false)}}>off</div>
-        <div style={indicatorStyle}></div>
-    </div>
+}
+export const UncontrolledOn = Template.bind({})
+UncontrolledOn.args = {
+    on: true,
+    defaultOn: true
 }

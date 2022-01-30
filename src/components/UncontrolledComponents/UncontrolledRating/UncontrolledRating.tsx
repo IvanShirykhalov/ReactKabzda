@@ -2,13 +2,13 @@ import React, {useState} from "react";
 
 export type RatingValueType = 0 | 1 | 2 | 3 | 4 | 5
 
-export type RatingPropsType = {
-    value: RatingValueType
+export type UncontrolledRatingPropsType = {
+    startValue: RatingValueType
 }
 
-export function UncontrolledRating(props: RatingPropsType) {
+export function UncontrolledRating(props: UncontrolledRatingPropsType) {
 
-    let [value, setValue] = useState(0)
+    let [value, setValue] = useState<RatingValueType>( props.startValue ? props.startValue :0)
 
     return (
         <div>
