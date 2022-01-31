@@ -1,48 +1,26 @@
-import React, {useState} from 'react';
+import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import {Accordion} from "./components/Accordion/Accordion";
-import {Rating} from "./components/Rating/Rating";
-import {OnOff} from "./components/onOff/OnOff";
-import {UncontrolledAccordion} from "./components/UncontrolledComponents/UncontrolledAccordion/UncontrolledAccordion";
-import {RatingValueType, UncontrolledRating} from "./components/UncontrolledComponents/UncontrolledRating/UncontrolledRating";
 
-export function App() {
-
-    let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
-    let [accordionCollapsed, setAccordionCollapsed] = useState<boolean>(false)
-    let [switchOn, setSwitchOn] = useState(true)
-
-    return (
-        <div className={'App'}>
-            <PageTitle title={'APP component'}/>
-            <OnOff on={switchOn} onChange={setSwitchOn}/>
-            <Rating value={ratingValue} onClick={setRatingValue}/>
-            <Accordion titleValue={'menu'} collapsed={accordionCollapsed} onChange={()=>{setAccordionCollapsed(!accordionCollapsed)}}/>
-{/*            <OnOff/>
-            <UncontrolledRating/>
-            <UncontrolledAccordion titleValue={'Menu'}/>
-            <UncontrolledRating/>
-            <UncontrolledAccordion titleValue={'Menu'}/>
-                        <OnOff />
-                        <PageTitle title={'My friends'}/>
-                       <Accordion titleValue={'Menu1'} collapsedMenu={false}/>
-            <Accordion titleValue={'Menu2'} collapsedMenu={true}/>
-           <UncontrolledAccordion titleValue={'Unem'}/>*/}
-        </div>
-    );
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
-type PageTitlePropsType = {
-    title: string
-}
-
-function PageTitle(props: PageTitlePropsType) {
-    return (
-        <h1>{props.title}</h1>
-    )
-}
-
-export default App
-
-
-
+export default App;
