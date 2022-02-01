@@ -7,7 +7,7 @@ export default {
     components: UncontrolledAccordion
 }
 
-export const Template: Story<AccordionPropsType> = (args) => <UncontrolledAccordion {...args}/>
+const Template: Story<AccordionPropsType> = (args) => <UncontrolledAccordion {...args}/>
 export const UnAccordion = Template.bind({})
 UnAccordion.args = {
     titleValue: 'Menu'

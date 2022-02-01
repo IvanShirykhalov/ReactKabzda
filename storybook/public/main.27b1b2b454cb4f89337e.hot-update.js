@@ -1,0 +1,13 @@
+globalThis["webpackHotUpdatemy_app"]("main",{
+
+/***/ "./src/stories/input.stories.tsx":
+/*!***************************************!*\
+  !*** ./src/stories/input.stories.tsx ***!
+  \***************************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\JavaScript\\INCUBATOR\\ReactKabzda\\src\\stories\\input.stories.tsx: Unexpected token, expected \"{\" (41:7)\n\n\u001b[0m \u001b[90m 39 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 41 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    at Object._raise (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:506:17)\n    at Object.raiseWithData (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:499:17)\n    at Object.raise (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:460:17)\n    at Object.unexpected (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:3699:16)\n    at Object.parseExport (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:15154:16)\n    at Object.parseExport (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:9792:20)\n    at Object.parseStatementContent (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:14058:27)\n    at Object.parseStatementContent (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:9831:18)\n    at Object.parseStatement (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:13942:17)\n    at Object.parseBlockOrModuleBlockBody (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:14567:25)\n    at Object.parseBlockBody (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:14558:10)\n    at Object.parseProgram (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:13861:10)\n    at Object.parseTopLevel (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:13848:25)\n    at Object.parse (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:15736:10)\n    at Object.parse (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:10609:18)\n    at parse (C:\\JavaScript\\INCUBATOR\\ReactKabzda\\node_modules\\@babel\\parser\\lib\\index.js:15788:38)");
+
+/***/ })
+
+});

@@ -8,7 +8,7 @@ export default {
     components: UncontrolledOnOff
 }
 
-export const Template: Story<UncontrolledOnOffPropsType> = (args) => <UncontrolledOnOff {...args}/>
+const Template: Story<UncontrolledOnOffPropsType> = (args) => <UncontrolledOnOff {...args}/>
 export const UncontrolledOff = Template.bind({})
 UncontrolledOff.args = {
     on: false,

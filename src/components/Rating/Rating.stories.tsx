@@ -10,7 +10,7 @@ export default {
 
 const callback = action('changes status of stars')
 
-export const Template: Story<RatingPropsType> = (args) => <Rating {...args}/>
+const Template: Story<RatingPropsType> = (args) => <Rating {...args}/>
 export const EmptyStar = Template.bind({})
 EmptyStar.args ={
     value: 0,

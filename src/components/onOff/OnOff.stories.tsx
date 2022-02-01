@@ -12,7 +12,7 @@ export default {
 
 const callback = action('changes status of OnOff')
 
-export const Template: Story<OnOffPropsType> = (args) => <OnOff {...args}/>
+const Template: Story<OnOffPropsType> = (args) => <OnOff {...args}/>
 export const ChangeOnOff = Template.bind({})
 ChangeOnOff.args = {
     on: false,
