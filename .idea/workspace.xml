@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8f2661d-a058-4d82-ad95-08a112fb6c74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Select/Select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Select/Select.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Select/Select.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledOnOff/UncontrolledOnOff.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledOnOff/UncontrolledOnOff.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/onOff/OnOff.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/onOff/OnOff.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,11 +36,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\JavaScript\INCUBATOR\ReactKabzda\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaScript\INCUBATOR\ReactKabzda\src\Select" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -65,7 +76,11 @@
       <updated>1643658578692</updated>
       <workItem from="1643658582919" duration="4769000" />
       <workItem from="1643713168384" duration="1310000" />
-      <workItem from="1643736576345" duration="2300000" />
+      <workItem from="1643736576345" duration="4832000" />
+      <workItem from="1644263981868" duration="146000" />
+      <workItem from="1644352002260" duration="1545000" />
+      <workItem from="1644417209638" duration="23000" />
+      <workItem from="1644522812926" duration="3489000" />
     </task>
     <servers />
   </component>
