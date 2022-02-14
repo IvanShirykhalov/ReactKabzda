@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {AccordionBody, AccordionPropsType, AccordionTitle, UncontrolledAccordion} from "./UncontrolledAccordion";
+import React from "react";
+import {AccordionPropsType, UncontrolledAccordion} from "./UncontrolledAccordion";
 import {Story} from "@storybook/react";
 
 export default {
