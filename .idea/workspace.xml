@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8f2661d-a058-4d82-ad95-08a112fb6c74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledAccordion/reducer.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledAccordion/reducer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/ReacrMemo.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledAccordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledComponents/UncontrolledAccordion/UncontrolledAccordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/onOff/OnOff.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/onOff/OnOff.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ReacrMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ReactMemo.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +144,8 @@
       <workItem from="1644606972010" duration="3199000" />
       <workItem from="1644610676018" duration="2000" />
       <workItem from="1644688690389" duration="7095000" />
-      <workItem from="1644872509450" duration="3289000" />
+      <workItem from="1644872509450" duration="3545000" />
+      <workItem from="1645373090440" duration="3880000" />
     </task>
     <servers />
   </component>
